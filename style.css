@@ -2,3 +2,22 @@
     height: 75px;
     width: 75px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.portal-img {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover
+}
+
+.text-area {
+    height: 7rem;
+    width: 27rem;
+}
