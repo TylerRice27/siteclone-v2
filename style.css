@@ -17,7 +17,12 @@
     object-fit: cover
 }
 
-.text-area {
+.comment {
+    min-height: 100%;
+
+}
+
+/* .text-area {
     height: 7rem;
     width: 27rem;
-}
+} */
