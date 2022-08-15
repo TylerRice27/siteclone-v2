@@ -11,7 +11,7 @@
 
 .portal-img {
     background-image: url(https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg);
-    height: 60vh;
+    min-height: 60vh;
     background-position: center;
     background-size: cover;
     object-fit: cover
@@ -20,6 +20,15 @@
 .comment {
     min-height: 100%;
 
+}
+
+.shadow-box {
+
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(0, 0, 0, 0.85);
 }
 
 /* .text-area {
