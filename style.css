@@ -31,6 +31,10 @@
     background: rgba(0, 0, 0, 0.85);
 }
 
+.spill {
+    transform: translateY(6rem);
+}
+
 /* .text-area {
     height: 7rem;
     width: 27rem;
