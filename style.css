@@ -22,20 +22,24 @@
 
 }
 
-.shadow-box {
 
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    background: rgba(0, 0, 0, 0.85);
-}
 
 .spill {
     transform: translateY(6rem);
 }
 
-/* .text-area {
-    height: 7rem;
-    width: 27rem;
-} */
+@media (min-width: 768px) {
+    .shadow-box {
+
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: rgba(0, 0, 0, 0.85);
+    }
+
+    .text-dis {
+        display: none;
+    }
+
+}
