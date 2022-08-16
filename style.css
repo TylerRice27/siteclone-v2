@@ -24,22 +24,33 @@
 
 
 
-.spill {
-    transform: translateY(6rem);
+
+
+.shadow-box {
+
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(0, 0, 0, 0.85);
 }
 
-@media (min-width: 768px) {
-    .shadow-box {
+/* This applies only to med screens or smaller */
 
-        background-color: black;
-        color: white;
-        padding-left: 20px;
-        padding-right: 20px;
-        background: rgba(0, 0, 0, 0.85);
-    }
+@media (max-width: 768px) {
 
     .text-dis {
         display: none;
     }
 
+}
+
+
+/* This applies only to med screens or bigger */
+
+@media (min-width: 768px) {
+
+    .spill {
+        transform: translateY(6rem);
+    }
 }
