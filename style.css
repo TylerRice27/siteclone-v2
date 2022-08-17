@@ -4,12 +4,22 @@
 
 .header-logo {
     height: 75px;
-    width: 75px;
+    width: 90px;
 }
 
 .title-logo {
     height: 75px;
     width: 200px;
+}
+
+.portal-green {
+    background-color: rgb(153, 231, 37);
+
+}
+
+.btn-success {
+    background-color: rgb(92, 137, 24);
+    border-color: rgb(92, 137, 24);
 }
 
 
