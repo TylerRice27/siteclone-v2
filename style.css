@@ -23,13 +23,9 @@
 }
 
 
-.portal-img {
-    background-image: url(https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg);
-    min-height: 60vh;
-    background-position: center;
-    background-size: cover;
-    object-fit: cover
-}
+
+
+
 
 .comment {
     min-height: 100%;
@@ -70,6 +66,18 @@
 
     }
 
+    .bg-vid {
+        display: none
+    }
+
+    .portal-img {
+        background-image: url(https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_.jpg);
+        min-height: 60vh;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover
+    }
+
 }
 
 
@@ -79,5 +87,32 @@
 
     .spill {
         transform: translateY(6rem);
+    }
+
+    .portal-video {
+        min-height: 60vh;
+
+    }
+
+    .video-container {
+        width: 98vw;
+        height: 100vh;
+    }
+
+    .bg-vid {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100vw;
+        height: 115vh;
+        transform: translate(-50%, -50%);
+    }
+
+    .portal-text {
+        position: relative;
+        color: #FFFFFF;
+        left: 47%;
+        top: 3%;
+        transform: translate(-50%, -50%);
     }
 }
